@@ -6,37 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="operations.js"></script>
     <title>Calculator</title>
 </head>
 
 <body>
     <div class="calc">
-        
+
         <table>
-            <tr class="row">
+            <tr>
                 <th colspan="2">Result</th>
                 <th colspan="3"></th>
             </tr>
             <tr>
-                <td class="number">7</td>
-                <td class="number">8</td>
-                <td class="number">9</td>
-                <td class="sign">+</td>
-                <td class="sign">x</td>
+                <td >
+                    <input type="button" value="7" class="number">
+                </td>
+                <td>
+                    <input type="button" value="8" class="number">
+                </td>
+                <td>
+                    <input type="button" value="9" class="number">
+                </td>
+                <td>
+                    <input type="button" value="+" class="sign">
+                </td>
+                <td>
+                    <input type="button" value="x" class="sign">
+                </td>
             </tr>
             <tr>
-                <td class="number">4</td>
-                <td class="number">5</td>
-                <td class="number">6</td>
-                <td class="sign">-</td>
-                <td class="sign">/</td>
+                <td>
+                    <input type="button" value="4" class="number">
+                </td>
+                <td>
+                    <input type="button" value="5" class="number">
+                </td>
+                <td>
+                    <input type="button" value="6" class="number">
+                </td>
+                <td>
+                    <input type="button" value="-" class="sign">
+                </td>
+                <td>
+                    <input type="button" value="/" class="sign">
+                </td>
             </tr>
             <tr>
-                <td class="number">1</td>
-                <td class="number">2</td>
-                <td class="number">3</td>
-                <td class="number">0</td>
-                <td class="sign">=</td>
+                <td>
+                    <input type="button" value="1" class="number">
+                </td>
+                <td>
+                    <input type="button" value="2" class="number">
+                </td>
+                <td>
+                    <input type="button" value="3" class="number">
+                </td>
+                <td>
+                    <input type="button" value="0" class="number">
+                </td>
+                <td>
+                    <input type="button" value="=" class="sign" onclick="test()">
+                </td>
             </tr>
         </table>
     </div>
