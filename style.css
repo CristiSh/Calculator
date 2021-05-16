@@ -42,6 +42,10 @@ th{
 input{
     width: 100%;
     border-radius: 100%;
+    border: none;
     font-size: xxx-large;
     text-align: center;
+}
+input:hover{
+    opacity: 0.5;
 }
