@@ -25,27 +25,34 @@ table{
     width: 100%;
     border-spacing: 10px;
 }
-th{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid black;
-}
 .number{
     color: orange;
-    
-}
-.sign{
-    color: whitesmoke;
-    background-color: orange;
-    
-}
-input{
     width: 100%;
     border-radius: 100%;
     border: none;
     font-size: xxx-large;
     text-align: center;
+    
 }
-input:hover{
+.number:hover{
     opacity: 0.5;
+}
+.sign:hover{
+    opacity: 0.5;
+}
+.sign{
+    color: whitesmoke;
+    background-color: orange;
+    width: 100%;
+    border-radius: 100%;
+    border: none;
+    font-size: xxx-large;
+    text-align: center;
+    
+}
+.output{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 80px;
+    border-bottom: 1px solid black;
 }
